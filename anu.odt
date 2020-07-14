@@ -1,0 +1,11 @@
+from tkinter import *                                  # To import tkinter
+                                                       # * is used to add all attributes and methods
+
+window=Tk()                                            #To create a window
+button=Button(text="ok",width=30,height=30,bg="red",fg="red")   #To create button
+label=Label(window,text="welcome")                     #To create label
+button.pack()                                          #To attach button in windows
+label.pack()                                           #To attach label in windows
+window.mainloop()
+print("hai")
+
